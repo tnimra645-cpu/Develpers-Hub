@@ -1,50 +1,50 @@
-# DevelopersHub Data Science Internship Tasks
+ DevelopersHub Data Science Internship Tasks
 
 This repository contains the completed tasks for the Data Science & Analytics Internship at DevelopersHub Corporation.
 
-## Intern Information
-- **Name:** [Your Name]
-- **Email:** [Your Email]
+ Intern Information
+-Name: Nimra Tahir      
+-Email:tnimra645@gmail.com
 
-## Overview of Completed Tasks
+ Overview of Completed Tasks
 All 5 assigned tasks have been completed. Each task demonstrates the full data science pipeline: data exploration, cleaning, visualization, model building, and evaluation.
 
-### Task 1: Exploring and Visualizing a Simple Dataset (Iris)
-- **Goal:** Understand, summarize, and visualize a dataset.
-- **Key Steps:** Loaded data, displayed structure, created scatter plots, histograms, and box plots.
-- **Libraries:** Pandas, Matplotlib, Seaborn.
+ Task 1: Exploring and Visualizing a Simple Dataset (Iris)
+-Goal: Understand, summarize, and visualize a dataset.
+-Key Steps: Loaded data, displayed structure, created scatter plots, histograms, and box plots.
+-Libraries: Pandas, Matplotlib, Seaborn.
 
-### Task 2: Credit Risk Prediction (Loan Prediction)
-- **Goal:** Predict loan default risk.
-- **Model Used:** Logistic Regression (in a pipeline with StandardScaler).
-- **Evaluation:** Achieved accuracy of ~79%. Used confusion matrix and classification report.
-- **Key Insight:** `Credit_History` is the most significant factor.
+ Task 2: Credit Risk Prediction (Loan Prediction)
+-Goal: Predict loan default risk.
+-Model Used: Logistic Regression (in a pipeline with StandardScaler).
+-Evaluation: Achieved accuracy of ~79%. Used confusion matrix and classification report.
+-Key Insight: `Credit_History` is the most significant factor.
 
-### Task 3: Customer Churn Prediction (Bank Customers)
-- **Goal:** Identify customers likely to leave the bank.
-- **Model Used:** Random Forest Classifier.
-- **Evaluation:** Achieved accuracy of ~87%. Analyzed feature importance.
-- **Key Insight:** `Age`, `EstimatedSalary`, and `Balance` are top factors influencing churn.
+ Task 3: Customer Churn Prediction (Bank Customers)
+-Goal: Identify customers likely to leave the bank.
+-Model Used: Random Forest Classifier.
+-Evaluation: Achieved accuracy of ~87%. Analyzed feature importance.
+-Key Insight: `Age`, `EstimatedSalary`, and `Balance` are top factors influencing churn.
 
-### Task 4: Predicting Insurance Claim Amounts (Medical Cost)
-- **Goal:** Estimate medical insurance charges.
-- **Model Used:** Linear Regression.
-- **Evaluation:** Achieved MAE of ~4186 and RMSE of ~5799.
-- **Key Insight:** `Smoker` status, `age`, and `bmi` have the strongest impact on charges.
+ Task 4: Predicting Insurance Claim Amounts (Medical Cost)
+-Goal: Estimate medical insurance charges.
+-Model Used: Linear Regression.
+-Evaluation: Achieved MAE of ~4186 and RMSE of ~5799.
+-Key Insight: `Smoker` status, `age`, and `bmi` have the strongest impact on charges.
 
-### Task 5: Personal Loan Acceptance Prediction (Bank Marketing)
-- **Goal:** Predict customer loan offer acceptance.
-- **Model Used:** Decision Tree Classifier.
-- **Evaluation:** Achieved accuracy of ~87%. Analyzed feature importance.
-- **Key Insight:** `Duration` of the last call, `day` of the month, and `balance` are top predictors.
+ Task 5: Personal Loan Acceptance Prediction (Bank Marketing)
+-Goal: Predict customer loan offer acceptance.
+-Model Used: Decision Tree Classifier.
+-Evaluation: Achieved accuracy of ~87%. Analyzed feature importance.
+-Key Insight: `Duration` of the last call, `day` of the month, and `balance` are top predictors.
 
-## How to Run the Code
+ How to Run the Code
 1.  Clone this repository.
 2.  Install required libraries: `pip install pandas numpy matplotlib seaborn scikit-learn`
 3.  Open the Jupyter Notebook (`Developers Hub (1).ipynb`) and run all cells.
 
-## Results and Conclusion
+ Results and Conclusion
 All five models performed well on their respective tasks. Visualizations provided clear insights into data distributions and relationships. Feature importance analysis helped identify the most influential variables in each predictive model. The internship tasks successfully demonstrated the application of key data science techniques for business problem-solving.
 
-## Submission
+ Submission
 Submitted for DevelopersHub Corporation Data Science & Analytics Internship.
